@@ -1,0 +1,24 @@
+points on the plot differ mainly because of three factors:
+1) repeat content and motif redundancy: genomes that have many repeated
+   short motifs create ambiguous overlaps among reads and require more
+   pairwise checks during greedy assembly. such genomes tend to appear
+   as points with larger assembly times and more fragmented outputs.
+2) genome length and effective coverage: longer genomes sampled with
+   the same fixed number of reads have lower effective coverage. lower
+   coverage reduces the number of long overlaps found and can both
+   reduce and unpredictably increase assembly time depending on how many
+   candidate overlaps must be scanned. these effects change point
+   positions in a non-linear way.
+3) chance and read distribution: sampling randomness changes which
+   overlaps exist and how easy they are to find. even with identical
+   gc%, two genomes with different internal structure can have quite
+   different assembly times. thus gc% alone is not a reliable predictor
+   of assembly cost; internal sequence structure and coverage matter
+   more.
+
+the scatterplot places assembly time on the vertical axis and gc% on
+the horizontal axis. points with high assembly time are typically those
+whose genomes produced many ambiguous overlaps or required more
+pairwise comparisons during greedy merging. differences in gc% may
+correspond to differences in base composition but do not alone
+explain the assembly cost differences observed.
