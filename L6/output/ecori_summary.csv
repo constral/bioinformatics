@@ -1,0 +1,11 @@
+filename,record_name,genome_length_bp,num_ecori_sites,num_fragments,largest_fragment_bp,smallest_fragment_bp
+48.MCP_genome.fasta,48.MCP,17868,22,23,12353,15
+Ackermannviridae_genome.fasta,Ackermannviridae,85499,10,11,66473,49
+Aliceevansviridae_genome.fasta,Aliceevansviridae,71669,27,28,26724,30
+Autographiviridae_genome.fasta,Autographiviridae,146398,41,42,47420,30
+Casjensviridae_genome.fasta,Casjensviridae,59391,34,35,15205,14
+Demerecviridae_genome.fasta,Demerecviridae,149017,65,66,37620,16
+Drexlerviridae_genome.fasta,Drexlerviridae,136935,39,40,50861,31
+Duneviridae_genome.fasta,Duneviridae,12021,0,1,12021,12021
+Forsetiviridae_genome.fasta,Forsetiviridae,8383,1,2,4560,3823
+Fredfastierviridae_genome.fasta,Fredfastierviridae,4307,0,1,4307,4307
